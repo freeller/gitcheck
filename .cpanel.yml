@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gitbhuser/1
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index2.php $DEPLOYPATH
